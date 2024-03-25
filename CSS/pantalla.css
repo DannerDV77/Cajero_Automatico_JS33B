@@ -1,0 +1,51 @@
+html, body{
+    background-color: #242424;
+}
+
+.parrilla{
+    background-color: #fbd301;
+    position: fixed;
+    top: 25vh;
+    left: 50rem;
+    padding: 10px 15px 0px 15px;
+    height: 22rem;
+    width: 25rem;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.parrilla input{
+    border-radius: 2rem;
+    height: 1rem;
+    width: 23rem;
+    padding: 1vh;
+    margin-top: 1rem;
+    background-color: #242424;
+    color: white;
+}
+ .parrilla span{
+    font-size: 2rem;
+ }
+
+ .parrilla p{
+    font-size: 1rem;
+ }
+
+ .botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+ }
+
+ .parrilla button{
+    background-color: #1b1b1b;
+    color: #fbd301;
+    margin: 1rem;
+    padding: 1rem;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 1rem;
+ }
