@@ -46,7 +46,7 @@ buttonLogin.addEventListener("click", function(e){
         alert("El usuario y/o contraseña son incorrectos")        
     } else  {     
         sessionStorage.setItem("correctUser", JSON.stringify(correctUser))
-        window.location.href = "/atm.html"
+        window.location.href = "./atm.html"
     }
 })
 
